@@ -9,7 +9,7 @@ public class InsertionSort {
 	 */
 	public static int[] insertionSort(int[] unsortedArray) {
 		
-		for(int i=1; i<unsortdArray.length; i++) {
+		for(int i=1; i<unsortedArray.length; i++) {
 			for(int j=i; j>0; j--) {
 				if(unsortedArray[j] < unsortedArray[j-1]) {
 					int tmp = unsortedArray[j];
@@ -22,6 +22,6 @@ public class InsertionSort {
 			}
 		}
 		
-		return null;
+		return unsortedArray;
 	}
 }
